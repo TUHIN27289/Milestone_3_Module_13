@@ -84,3 +84,54 @@ const isGood=true;
 // {
 //     console.log('you are a baby');
 // }
+
+
+
+
+// Nested if-else
+
+let money=200;
+
+// if(money>300){
+//     console.log('go for lunch');
+// }
+// else
+// {
+//     if(money>100){
+//         console.log('go for a coffee');
+//     }
+//     else if(money>50){
+//         console.log('go for a snack');
+//     }
+//     else{
+//         console.log('go for a tea');
+//     }
+// }
+
+
+
+//  ternary operator
+
+// let price=200;
+// price>100?console.log('go for a coffee'):console.log('go for a tea');
+// // ternary operator is used to reduce the number of lines of code   
+
+
+
+//  logical not
+const issingle=true;
+
+if(!!issingle){
+    console.log('you are married');
+}
+else{
+    console.log('you are not married');
+}
+
+
+if(!issingle){
+    console.log('you are married');
+}
+else{
+    console.log('you are not married');
+}
