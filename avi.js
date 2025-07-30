@@ -49,3 +49,5 @@ var total= f1+f2;
 console.log(total);
 console.log(total.toPrecision(2));
 console.log(total.toFixed(2));
+
+console.log( typeof total);
