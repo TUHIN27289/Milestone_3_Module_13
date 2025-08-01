@@ -59,3 +59,13 @@ for(let i=2; i<=2000; i++)
         console.log('prime number :',i);
     }
 }
+
+
+
+// do while loop
+
+let t=0;
+do{ 
+    console.log(t);
+    t++;
+}while(t<=10);
