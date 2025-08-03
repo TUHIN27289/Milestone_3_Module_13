@@ -207,3 +207,34 @@ console.log(student['certificate']);
 console.log(student["fav places"]); //access using only bracket notation 
 const keyName='certificate';
 console.log(student[keyName]);
+
+// keys and values
+const   clgStudent={
+    name:'toukir ahmed',
+    age:24,
+    degree:'bsc in cse',
+    favSub:['c','c++','java','r','.net'],
+    age:25,
+
+    certificate:{
+        cName:['compitia network','compitia security','ph','cth'],
+        mark:100,
+        examType:'written',
+        isPassed:true
+    },
+    'fav places':['maldiv, srilanka, thailand']
+}
+
+const keys=Object.keys(clgStudent);
+console.log(keys);
+
+const values=Object.values(clgStudent);
+console.log(values);
+console.log(clgStudent.certificate);
+console.log(clgStudent.certificate.cName[2]);
+clgStudent.certificate.cName[2]='master of cyber security';
+console.log(clgStudent.certificate.cName[2]);
+console.log(clgStudent);
+delete clgStudent.age;
+console.log(clgStudent)
+
