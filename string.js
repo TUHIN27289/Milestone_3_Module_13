@@ -208,7 +208,7 @@ console.log(student["fav places"]); //access using only bracket notation
 const keyName='certificate';
 console.log(student[keyName]);
 
-// keys and values
+// keys and values and delete
 const   clgStudent={
     name:'toukir ahmed',
     age:24,
@@ -238,3 +238,33 @@ console.log(clgStudent);
 delete clgStudent.age;
 console.log(clgStudent)
 
+
+// loop an object and ways of declare an object
+const mobile={
+    brand:'apple',
+    price:240000,
+    color:'black',
+    camera:`200px`,
+    isNew:true
+}
+for(const item in mobile){
+    console.log(item);
+}
+for(const item in mobile){
+    console.log(mobile[item])
+}
+
+//  another way
+// for object use for of loop
+// for array use for in loop
+const KEYS= Object.keys(mobile);
+console.log(KEYS);
+for(const item of KEYS){
+    console.log(item,' : ',mobile[item])
+}
+
+// ways to create object
+
+const pen={brand:'HB', price: 10, color: `black`}
+const pencil=new Object()
+const rubber=Object.create({})
